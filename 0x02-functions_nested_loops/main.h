@@ -1,8 +1,5 @@
-#ifndef main.h
-#define main.h
-
 /* _putchar.c */
-int _putchar(char);
+int _putchar(char c);
 
 /* 1-alphabet.c */
 void print_alphabet(void);
@@ -11,13 +8,13 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 
 /* 3-islower.c */
-int _islower(int);
+int _islower(int c);
 
 /* 4-alpha.c */
-int _isalpha(int);
+int _isalpha(int c);
 
 /* 5-sign.c */
-int print_sign(int);
+int print_sign(int n);
 
 /* 6-abs.c */
 int _abs(int);
@@ -35,9 +32,9 @@ void times_table(void);
 int add(int, int);
 
 /* 11-print_to_98.c */
-void print_to_98(int);
+void print_to_98(int n);
 
 /* 100-times_table.c*/
-void print_times_table(int);
+void print_times_table(int n);
 
 #endif
