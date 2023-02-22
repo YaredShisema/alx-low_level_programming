@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include "main.h"
 
 /**
@@ -14,3 +16,4 @@ int main(void)
 
         return (0);
 }
+#endif /* MAIN_H */
