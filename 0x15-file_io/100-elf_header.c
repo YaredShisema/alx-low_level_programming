@@ -86,7 +86,7 @@ void print_class(unsigned char *e_ident)
 		printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 	}
 }
-**
+/**
  * print_data - Prints the data of an ELF header.
  * @e_ident: A pointer to an array containing the ELF class.
  */
@@ -309,4 +309,3 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	close_elf(o);
 	return (0);
 }
-
